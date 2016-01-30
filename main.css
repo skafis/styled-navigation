@@ -46,6 +46,7 @@ a {
   width: 120%;
 /*  max-width: 768px;*/
   text-align: center;
+    text-shadow: 3px 2px #000;
 }
 
 .cd-intro {
