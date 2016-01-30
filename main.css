@@ -41,13 +41,15 @@ a {
 }
 
 .cd-intro {
-  width: 50%;
-  max-width: 768px;
+    border: solid;
+    border-radius: 100%;
+  width: 120%;
+/*  max-width: 768px;*/
   text-align: center;
 }
 
 .cd-intro {
-  margin: 4em auto;
+/*  margin: 4em auto;*/
 }
 @media only screen and (min-width: 768px) {
   .cd-intro {
