@@ -1,7 +1,11 @@
-ul li{
-    display: inline-block;
-    padding: 50px
 
+ul li{
+    width: 100;
+    display: inline-block;
+    padding: 10px
+}
+ul {
+    100%;
 }
 
 #logo {
@@ -17,7 +21,7 @@ Primary style
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+/*  box-sizing: border-box;*/
 }
 
 html * {
@@ -36,17 +40,27 @@ body {
   background-color: #403d3d;
 }
 
-a {
+b {
   text-decoration: none;
+    border: solid;
+    border-radius: 900%;
+    background-clip: border-box;
 }
 
 .cd-intro {
-    border: solid;
-    border-radius: 100%;
-  width: 120%;
+    font-family: 'Rock Salt';
+    font-size: 30px;
+/*    border-radius: 100%;*/
+  width: 90%;
 /*  max-width: 768px;*/
   text-align: center;
-    text-shadow: 3px 2px #000;
+    text-shadow: 3px 2px 10px #b58936;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    border-left-width: 0px;
+    margin-bottom: 0px;
+    border-right-width: 0px;
 }
 
 .cd-intro {
@@ -54,12 +68,12 @@ a {
 }
 @media only screen and (min-width: 768px) {
   .cd-intro {
-    margin: 5em auto;
+/*    margin: 5em auto;*/
   }
 }
 @media only screen and (min-width: 1170px) {
   .cd-intro {
-    margin: 6em auto;
+/*    margin: 6em auto;*/
   }
 }
 
@@ -69,8 +83,8 @@ a {
 }
 @media only screen and (min-width: 768px) {
   .cd-headline {
-    font-size: 4.4rem;
-    font-weight: 300;
+    font-size:15px;
+    font-weight: 30;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -80,8 +94,9 @@ a {
 }
 
 .cd-words-wrapper {
+    width: 30px;
   display: inline-block;
-  position: relative;
+/*  position: relative;*/
   text-align: left;
 }
 .cd-words-wrapper b {
